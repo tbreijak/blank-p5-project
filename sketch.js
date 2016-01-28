@@ -10,8 +10,8 @@ function setup() {
   var bodyY = 300;
   var bodyWidth = 200;
   var bodyHeight = 350;
-  var tipTopX = 400;
-  var tipTopY = 100;
+  var tipTopX = 350;
+  var tipTopY = 150;
   var topLeftX = 300;
   var topLeftY = 500;
   var outerLeftX = 250;
@@ -20,10 +20,10 @@ function setup() {
   var innerLeftY = 650;
   var topRightX = 500;
   var topRightY = 500;
-  var outerRightX = 550
-  var outerRightY = 650
-  var innerRightX = 500
-  var innerRightY = 650
+  var outerRightX = 550;
+  var outerRightY = 650;
+  var innerRightX = 500;
+  var innerRightY = 650;
   rect(bodyX, bodyY, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
