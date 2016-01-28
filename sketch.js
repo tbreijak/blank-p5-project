@@ -10,13 +10,15 @@ function setup() {
   var bodyY = 300;
   var bodyWidth = 200;
   var bodyHeight = 350;
-
+  var tipTopX = 400
+  var tipTopY = 100
   rect(bodyX, bodyY, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
-  triangle(400, 100, 300, 300, 500, 300); // draw the nose
+  triangle(tipTopX, tipTopY, tipTopX - 100, tipTopY + 200, tipTopX + 100, tipTopY + 200ß); // draw the nose
   triangle(300, 500, 250, 650, 300, 650); // left wing
   triangle(500, 500, 550, 650, 500, 650); // right wing
+
 
   fill(250);
   ellipse(400, 400, 50, 100, 400); // make a window
