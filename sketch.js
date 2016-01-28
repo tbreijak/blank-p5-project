@@ -15,7 +15,7 @@ function setup() {
   rect(bodyX, bodyY, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
-  triangle(tipTopX, tipTopY, tipTopX - 100, tipTopY + 200, tipTopX + 100, tipTopY + 200ß); // draw the nose
+  triangle(tipTopX, tipTopY, tipTopX - 100, tipTopY + 200, tipTopX + 100, tipTopY + 200); // draw the nose
   triangle(300, 500, 250, 650, 300, 650); // left wing
   triangle(500, 500, 550, 650, 500, 650); // right wing
 
