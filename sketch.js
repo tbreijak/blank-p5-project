@@ -18,12 +18,18 @@ function setup() {
   var outerLeftY = 650;
   var innerLeftX = 300;
   var innerLeftY = 650;
+  var topRightX = 500;
+  var topRightY = 500;
+  var outerRightX = 550
+  var outerRightY = 650
+  var innerRightX = 500
+  var innerRightY = 650
   rect(bodyX, bodyY, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
   triangle(tipTopX, tipTopY, tipTopX - 100, tipTopY + 200, tipTopX + 100, tipTopY + 200); // draw the nose
   triangle(topLeftX, topLeftY, outerLeftX, outerLeftY, innerLeftX, innerLeftY); // left wing
-  triangle(500, 500, 550, 650, 500, 650); // right wing
+  triangle(topRightX, topRightY, outerRightX, outerRightY, innerRightX, innerRightY); // right wing
 
 
   fill(250);
