@@ -10,13 +10,19 @@ function setup() {
   var bodyY = 300;
   var bodyWidth = 200;
   var bodyHeight = 350;
-  var tipTopX = 400
-  var tipTopY = 100
+  var tipTopX = 400;
+  var tipTopY = 100;
+  var topLeftX = 300;
+  var topLeftY = 500;
+  var outerLeftX = 250;
+  var outerLeftY = 650;
+  var innerLeftX = 300;
+  var innerLeftY = 650;
   rect(bodyX, bodyY, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
   triangle(tipTopX, tipTopY, tipTopX - 100, tipTopY + 200, tipTopX + 100, tipTopY + 200); // draw the nose
-  triangle(300, 500, 250, 650, 300, 650); // left wing
+  triangle(topLeftX, topLeftY, outerLeftX, outerLeftY, innerLeftX, innerLeftY); // left wing
   triangle(500, 500, 550, 650, 500, 650); // right wing
 
 
