@@ -5,6 +5,7 @@ function setup() {
     noseLength: 200,
     bodyWidth: 200,
     bodyHeight: 350,
+    wingHeight: 500,
 
     drawRocket: function() {
       this.drawNose();
@@ -21,14 +22,16 @@ function setup() {
       var bodyX = this.tipTopX - this.bodyWidth / 2;
       var bodyY = this.tipTopY + this.noseLength;
 
-      fill(150) // steel grey rocket
+      fill(150); // steel grey rocket
       rect(bodyX, bodyY, this.bodyWidth, this.bodyHeight); // rocket body
     },
     drawWingR: function() {
-      var rightWingX = this.tipTopX + this.tipTopY
-      var rightWingY = this.tipTopX + this.tipTopY
-      
-    }
+      var rightWingX1 = this.tipTopX + this.bodyWidth / 2;
+      var rightWingY1 = wingHeight;
+      var rightWingX2 = this.tipTopX + this.bodyWidth / 2;
+      var rightWingY2 = wingHeight;
+
+    },
 
   };
 
@@ -52,7 +55,7 @@ fill(250);
 ellipse(400, 400, 50, 100, 400); // make a window
 
 fill(255);
-    ellipse(600, 100, 75, 75);
+    ellipse(600, 100, 75, 75); // draw the moon
 }
 
 function draw() {
