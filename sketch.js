@@ -9,6 +9,7 @@ function setup() {
     drawRocket: function() {
       this.drawNose();
       this.drawBody();
+      this.drawWingR();
     },
     drawNose: function() {
       var noseX1 = this.tipTopX - this.bodyWidth / 2;
@@ -22,6 +23,9 @@ function setup() {
 
       fill(150) // steel grey rocket
       rect(bodyX, bodyY, this.bodyWidth, this.bodyHeight); // rocket body
+    },
+    drawWingR: function() {
+      
     }
 
   };
