@@ -5,7 +5,7 @@ function setup() {
     noseLength: 200,
     bodyWidth: 200,
     bodyHeight: 350,
-    wingHeight: 500,
+    wingHeight: 100,
 
     drawRocket: function() {
       this.drawNose();
