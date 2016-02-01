@@ -25,7 +25,8 @@ function setup() {
       rect(bodyX, bodyY, this.bodyWidth, this.bodyHeight); // rocket body
     },
     drawWingR: function() {
-      
+      var rightWingX = this.tipTopX + this.tipTopY
+      var rightWingY = this.tipTopX + this.tipTopY
     }
 
   };
