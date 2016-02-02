@@ -6,6 +6,7 @@ function setup() {
     bodyWidth: 200,
     bodyHeight: 350,
     wingHeight: 150,
+    wingWidth = 50,
 
     drawRocket: function() {
       this.drawNose();
@@ -29,7 +30,8 @@ function setup() {
       var rightWingX1 = this.tipTopX + this.bodyWidth / 2;
       var rightWingY1 = this.wingHeight;
       var rightWingX2 = this.tipTopX + this.bodyWidth / 2;
-      var rightWingY2 = this.ßwingHeight;
+      var rightWingY2 = this.wingHeight;
+      var rightWingX3 = this.tipTopX + this.wingWidth;
 
     },
 
