@@ -33,8 +33,16 @@ function setup() {
       var rightWingY2 = this.wingHeight;
       var rightWingX3 = this.tipTopX + this.wingWidth + this.bodyWidth / 2;
       var rightWingY3 = this.noseLength + this.bodyHeight;
-
     },
+    drawWingL: function() {
+      var leftWingX1 = this.tipTopX - this.bodyWidth / 2;
+      var leftWingY1 = this.wingHeight;
+      var leftWingX2 = this.tipTopX - this.bodyWidth / 2;
+      var leftWingY2 = this.wingHeight;
+      var leftWingX3 = this.noseLength + this.bodyHeight;
+    }
+
+
 
   };
 
