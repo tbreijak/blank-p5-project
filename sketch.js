@@ -1,7 +1,7 @@
 function setup() {
   var rocket = {
-    tipTopX: 500,
-    tipTopY: 200,
+    tipTopX: 400,
+    tipTopY: 100,
     noseLength: 200,
     bodyWidth: 200,
     bodyHeight: 350,
@@ -27,7 +27,7 @@ function setup() {
     drawWingR: function() {
       var rightWingX = this.tipTopX + this.tipTopY
       var rightWingY = this.tipTopX + this.tipTopY
-
+      
     }
 
   };
