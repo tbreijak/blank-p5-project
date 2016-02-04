@@ -5,6 +5,10 @@ function setup() {
   fill(100); // dark ground
   rect(0, 600, 800, 200); // draw the ground
 
+  fill(255);
+  ellipse(600, 100, 75, 75);
+}
+function drawRocket()  {
   fill(150); // steel grey rocket
   var bodyX = 300;
   var bodyY = 300;
@@ -34,11 +38,8 @@ function setup() {
 
   fill(250);
   ellipse(tipTopX, tipTopY + 300, 50, 100, 400); // make a window
-
-  fill(255);
-  ellipse(600, 100, 75, 75);
 }
-
 function draw() {
+
 
 }
