@@ -24,7 +24,7 @@ function setup() {
   var outerRightY = 650;
   var innerRightX = 500;
   var innerRightY = 650;
-  rect(bodyX, bodyY, bodyWidth, bodyHeight);
+  rect(tipTopX - 100, tipTopY + 200, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
   triangle(tipTopX, tipTopY, tipTopX - 100, tipTopY + 200, tipTopX + 100, tipTopY + 200); // draw the nose
