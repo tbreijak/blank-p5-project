@@ -10,8 +10,8 @@ function setup() {
   var bodyY = 300;
   var bodyWidth = 200;
   var bodyHeight = 350;
-  var tipTopX = 500;
-  var tipTopY = 200;
+  var tipTopX = 400;
+  var tipTopY = 100;
   var topLeftX = 300;
   var topLeftY = 500;
   var outerLeftX = 250;
