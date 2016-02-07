@@ -15,8 +15,8 @@ function drawRocket()  {
   var bodyY = 300;
   var bodyWidth = 200;
   var bodyHeight = 350;
-  var tipTopX = 400;
-  var tipTopY = 100;
+  var tipTopX = 600;
+  var tipTopY = 300;
   var topLeftX = 300;
   var topLeftY = 500;
   var outerLeftX = 250;
@@ -40,7 +40,7 @@ function drawRocket()  {
   fill(250);
   ellipse(tipTopX, tipTopY + 300, 50, 100, 400); // make a window
 }
-function draw() {
+function draw(); {
 
 
 }
