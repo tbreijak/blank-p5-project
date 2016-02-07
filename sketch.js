@@ -16,7 +16,7 @@ function drawRocket()  {
   var bodyWidth = 200;
   var bodyHeight = 350;
   var tipTopX = 400;
-  var tipTopY = 400;
+  var tipTopY = 100;
   var topLeftX = 300;
   var topLeftY = 500;
   var outerLeftX = 250;
