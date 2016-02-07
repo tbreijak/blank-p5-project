@@ -7,6 +7,7 @@ function setup() {
 
   fill(255);
   ellipse(600, 100, 75, 75);
+  drawRocket();
 }
 function drawRocket()  {
   fill(150); // steel grey rocket
