@@ -8,7 +8,6 @@ function setup() {
   fill(255);
   ellipse(600, 100, 75, 75);
   drawRocket();
-
 }
 function drawRocket()  {
   fill(150); // steel grey rocket
@@ -16,8 +15,8 @@ function drawRocket()  {
   var bodyY = 300;
   var bodyWidth = 200;
   var bodyHeight = 350;
-  var tipTopX = 500;
-  var tipTopY = 200;
+  var tipTopX = 400;
+  var tipTopY = 100;
   var topLeftX = 300;
   var topLeftY = 500;
   var outerLeftX = 250;
@@ -42,6 +41,5 @@ function drawRocket()  {
   ellipse(tipTopX, tipTopY + 300, 50, 100, 400); // make a window
 }
 function draw() {
-
-
+  drawRocket();
 }
