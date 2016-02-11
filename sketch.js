@@ -30,7 +30,7 @@ function drawRocket()  {
   var innerRightX = 500;
   var innerRightY = 650;
 
-  rect(tipTopX - bodyWidth / 2, tipTopY + 200, bodyWidth, bodyHeight);
+  rect(tipTopX - bodyWidth / 2, tipTopY + tipTopY, bodyWidth, bodyHeight);
 
   fill(170); // different shade nose
   triangle(tipTopX, tipTopY, tipTopX - tipTopY / 2, tipTopY + tipTopY, tipTopX + tipTopY / 2, tipTopY + tipTopY); // draw the nose
