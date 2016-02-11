@@ -34,7 +34,7 @@ function drawRocket()  {
 
   fill(170); // different shade nose
   triangle(tipTopX, tipTopY, tipTopX - tipTopY / 2, tipTopY + tipTopY, tipTopX + tipTopY / 2, tipTopY + tipTopY); // draw the nose
-  triangle(tipTopX - tipTopY / 2, tipTopY + 400, tipTopX - 150, tipTopY + 550, tipTopX - 100, tipTopY + 550); // left wing
+  triangle(tipTopX - tipTopY / 2, tipTopY + tipTopY * 2, tipTopX - bodyX / 2, tipTopY + outerRightX, tipTopX - 100, tipTopY + 550); // left wing
   triangle(tipTopX + 100, tipTopY + 400, tipTopX + 150, tipTopY + 550, tipTopX + 100, tipTopY + 550); // right wing
 
 
