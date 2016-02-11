@@ -39,7 +39,7 @@ function drawRocket()  {
 
 
   fill(250);
-  ellipse(tipTopX, tipTopY + 300, 50, 100, 400); // make a window
+  ellipse(tipTopX, tipTopY + topLeftX, outerRightX - topRightX, tipTopY / 2, tipTopY * 2); // make a window
 }
 function draw() {
   drawRocket();
